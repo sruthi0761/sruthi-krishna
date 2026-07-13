@@ -16,3 +16,4 @@
 **Tech Stack:**
 
 `Java` `Python` `JavaScript` `Rust` `React.js` `React Native` `Node.js` `MongoDB` `MySQL`
+![Sruthi Krishna Banner](sruthi_github_banner.svg)
