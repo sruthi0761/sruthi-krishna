@@ -1,0 +1,58 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a192f"/>
+      <stop offset="55%" stop-color="#0f2a4a"/>
+      <stop offset="100%" stop-color="#123a5e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#64ffda"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e3a5f" stroke-width="1" opacity="0.5"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#grid)"/>
+
+  <!-- Decorative circuit lines -->
+  <g stroke="#64ffda" stroke-width="1.5" opacity="0.35" fill="none">
+    <path d="M 900 40 L 960 40 L 960 90 L 1030 90"/>
+    <circle cx="900" cy="40" r="4" fill="#64ffda"/>
+    <circle cx="1030" cy="90" r="4" fill="#64ffda"/>
+    <path d="M 850 260 L 900 260 L 900 220 L 970 220"/>
+    <circle cx="850" cy="260" r="4" fill="#38bdf8"/>
+    <circle cx="970" cy="220" r="4" fill="#38bdf8"/>
+    <path d="M 1080 160 L 1140 160 L 1140 200"/>
+    <circle cx="1140" cy="200" r="4" fill="#64ffda"/>
+  </g>
+
+  <!-- Lock / shield icon -->
+  <g transform="translate(1020,110)">
+    <rect x="-35" y="-5" width="70" height="60" rx="8" fill="none" stroke="url(#accent)" stroke-width="3"/>
+    <path d="M -20 -5 L -20 -30 A 20 20 0 0 1 20 -30 L 20 -5" fill="none" stroke="url(#accent)" stroke-width="3"/>
+    <circle cx="0" cy="22" r="6" fill="#64ffda"/>
+    <rect x="-3" y="24" width="6" height="14" fill="#64ffda"/>
+  </g>
+
+  <!-- Name -->
+  <text x="70" y="120" font-family="Verdana, Arial, sans-serif" font-size="52" font-weight="bold" fill="#e6f1ff">
+    Sruthi Krishna
+  </text>
+
+  <!-- Tagline -->
+  <text x="70" y="165" font-family="Verdana, Arial, sans-serif" font-size="22" fill="url(#accent)" font-weight="600">
+    Full-Stack Developer · Post-Quantum Cryptography · Cloud &amp; Security
+  </text>
+
+  <!-- Sub-line -->
+  <text x="70" y="200" font-family="Verdana, Arial, sans-serif" font-size="15" fill="#8ba3c7">
+    B.Sc. Computer Science &#39;26 · MERN Stack · Rust
+  </text>
+
+  <!-- Bottom accent bar -->
+  <rect x="70" y="225" width="180" height="4" rx="2" fill="url(#accent)"/>
+</svg>
